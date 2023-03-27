@@ -1,0 +1,31 @@
+#contenedor{
+    display: grid;
+    grid-template-areas:    'encabezado encabezado encabezado'
+                            'lateral contenido contenido'
+                            'lateral pie pie';
+}
+
+header, footer, main, aside{
+    border-radius: 3px;
+    border: 3px solid red;
+}
+
+#encabezado{
+    grid-area: encabezado;
+
+}
+
+#lateral{
+    grid-area: lateral;
+    /* height: 50%; */
+}
+
+#pie{
+    grid-area: pie;
+    /* height: 25%; */
+}
+
+#contenido{
+    grid-area: contenido;
+    /* height: 20%; */
+}
