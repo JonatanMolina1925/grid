@@ -1,0 +1,10 @@
+#contenedor{
+    display:grid;
+    grid-template-columns: 25% auto auto 10%;
+}
+
+#contenedor div{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
